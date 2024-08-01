@@ -1,0 +1,11 @@
+persistencia\UsuarioJpaController.class
+com\evidencia\jpa_servlets\resources\JavaEE8Resource.class
+logica\Usuario.class
+com\evidencia\jpa_servlets\JAXRSConfiguration.class
+persistencia\exceptions\NonexistentEntityException.class
+persistencia\exceptions\PreexistingEntityException.class
+persistencia\ControladoraPersistencia.class
+persistencia\exceptions\IllegalOrphanException.class
+servlets\SvUsuario.class
+logica\Controladora.class
+logica\Usuario_.class

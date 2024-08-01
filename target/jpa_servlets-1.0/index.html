@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Formulario para agregar Usuarios</h1>
+        
+        <form action="SvUsuario" method="POST">
+            <p><label>Cedula: </label><input type="text" name="cedula"></p>
+            <p><label>Primer nombre: </label><input type="text" name="primer_nombre"></p>
+            <p><label>Segundo nombre: </label><input type="text" name="segundo_nombre"></p>
+            <p><label>Primer apellido: </label><input type="text" name="primer_apellido"></p>
+            <p><label>Segundo apellido: </label><input type="text" name="segundo_apellido"></p>
+            
+            <button type="submit">Enviar datos</button>
+            
+        </form>
+        
+        <h1>Ver listas de usuarios</h1>
+        <p>Para ver los datos de los usuarios en la base de datos de clic en el botón:</p>
+        
+        <form action="SvUsuario" method="GET">
+            <button type="submit">Mostrar Usuarios</button>
+        </form>
+        
+    </body>
+</html>
